@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "logs:CreateLogStream"
+            ],
+            "Resource": [
+                "arn:aws:logs:ap-southeast-2:390857597435:log-group:/aws/lambda/turf-sls-prod-getForBounds:*",
+                "arn:aws:logs:ap-southeast-2:390857597435:log-group:/aws/lambda/turf-sls-prod-generateMap:*"
+            ],
+            "Effect": "Allow"
+        },
+        {
+            "Action": [
+                "logs:PutLogEvents"
+            ],
+            "Resource": [
+                "arn:aws:logs:ap-southeast-2:390857597435:log-group:/aws/lambda/turf-sls-prod-getForBounds:*:*",
+                "arn:aws:logs:ap-southeast-2:390857597435:log-group:/aws/lambda/turf-sls-prod-generateMap:*:*"
+            ],
+            "Effect": "Allow"
+        }
+    ]
+}
