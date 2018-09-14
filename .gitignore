@@ -4,4 +4,5 @@ jspm_packages
 
 # Serverless directory and configuration
 .serverless
-serverless.yml
+serverless.acf.yml
+serverless.commons.yml
