@@ -53,7 +53,7 @@ module.exports = {
               {
                 style: 'table',
                 table: {
-                  headerRows: 1,
+                  headerRows: 0,
                   dontBreakRows: true,
                   widths: [ '20%', '*', '*', '*', '*'],
                   body: table
