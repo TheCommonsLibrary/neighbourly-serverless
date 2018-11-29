@@ -18,7 +18,7 @@ module.exports = {
                 {text: 'Unable to knock', style:['streetLocalityHR1','streetLocalityHR2']},
                 {text: 'Not Home', style:['streetLocalityHR1','streetLocalityHR2']},
                 {text: 'Not Interested', style:['streetLocalityHR1','streetLocalityHR2']},
-                {text: 'Meaningful Converstation', style:['streetLocalityHR1','streetLocalityHR2']},
+                {text: 'Meaningful Conversation', style:['streetLocalityHR1','streetLocalityHR2']},
             ]);
             _.forEach(value, function(adr) {
                 table.push([
